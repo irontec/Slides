@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Vagrant Docker</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+    
+        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/blood.css" id="theme">
+    
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-background="#555588" data-markdown="slides/index.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/index.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/whatis.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/whatis2.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/whatis3.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/isVM.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/vmdiferences.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/image.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/container.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/install/install.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/install/ubuntu.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/use/index.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/use/images.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/use/imagesCommands.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/use/containers.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/use/containers2.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/use/containers3.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/use/createImage.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/Dockerfile/index.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/Dockerfile/whatIs.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/docker/Dockerfile/dockerfile.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/vagrant/index.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/vagrant/whatIs.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/vagrant/whatUses.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/vagrant/install.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/vagrant/Vagrantfile.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/vagrant/Docker/index.md"></section>
+
+
+                            
+                                
+    <section data-background="#555588" data-markdown="slides/vagrant/Docker/Vagrantfile.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+
+    </body>
+
+</html>
