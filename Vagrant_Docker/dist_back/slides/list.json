@@ -1,0 +1,48 @@
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-background": "#555588"
+        }
+    },
+    [
+        {
+            "filename": "docker/index.md",
+            "attr": {
+                "data-background": "#555588"
+            }
+        },
+        {
+            "filename": "docker/whatis.md",
+            "attr": {
+                "data-background": "#555588"
+            }
+        },
+        {
+            "filename": "docker/whatis2.md",
+            "attr": {
+                "data-background": "#555588"
+            }
+        },
+        {
+            "filename": "docker/whatis3.md",
+            "attr": {
+                "data-background": "#555588"
+            }
+        },
+        {
+            "filename": "docker/vmdiferences.md",
+            "attr": {
+                "data-background": "#555588"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "vagrant/index.md",
+            "attr": {
+                "data-background": "#555588"
+            }
+        }
+    ]
+]
